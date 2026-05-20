@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day Market — Conditions Générales d'Utilisation</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,'Inter',system-ui,sans-serif; background:#000; color:#fff; overflow-x:hidden; }
+.bg { position:fixed; top:0; left:0; width:100%; height:100%; background:linear-gradient(135deg,#000000 0%,#0D0108 50%,#180410 100%); z-index:-2; }
+.glow1 { position:fixed; top:-150px; left:-150px; width:500px; height:500px; border-radius:50%; background:radial-gradient(circle,rgba(248,113,113,0.15) 0%,transparent 70%); z-index:-1; }
+.glow2 { position:fixed; bottom:-100px; right:-100px; width:400px; height:400px; border-radius:50%; background:radial-gradient(circle,rgba(220,38,38,0.1) 0%,transparent 70%); z-index:-1; }
+
+nav { display:flex; align-items:center; justify-content:space-between; padding:24px 40px; border-bottom:1px solid rgba(248,113,113,0.1); backdrop-filter:blur(20px); position:sticky; top:0; z-index:100; background:rgba(0,0,0,0.8); }
+.nav-logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
+.logo-icon { width:40px; height:40px; background:rgba(248,113,113,0.15); border:1.5px solid rgba(248,113,113,0.4); border-radius:12px; display:flex; align-items:center; justify-content:center; }
+.logo-name { font-size:20px; font-weight:800; letter-spacing:-0.5px; color:#fff; }
+.logo-name span { color:#F87171; }
+.nav-back { background:rgba(248,113,113,0.1); color:#F87171; border:1px solid rgba(248,113,113,0.3); border-radius:10px; padding:10px 20px; font-size:14px; font-weight:700; cursor:pointer; text-decoration:none; transition:all 0.2s; }
+.nav-back:hover { background:rgba(248,113,113,0.2); }
+
+.content { max-width:800px; margin:0 auto; padding:80px 40px; position:relative; z-index:1; }
+.page-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(248,113,113,0.1); border:1px solid rgba(248,113,113,0.3); border-radius:20px; padding:6px 16px; font-size:12px; color:#F87171; font-weight:600; letter-spacing:1px; text-transform:uppercase; margin-bottom:24px; }
+.page-title { font-size:clamp(32px,5vw,56px); font-weight:900; letter-spacing:-2px; margin-bottom:8px; }
+.page-title span { color:#F87171; }
+.page-date { font-size:13px; color:#7F1D1D; margin-bottom:48px; }
+
+.section { background:rgba(100,5,25,0.15); border:1px solid rgba(220,38,38,0.15); border-radius:18px; padding:28px; margin-bottom:16px; }
+.section-title { font-size:17px; font-weight:700; color:#F87171; margin-bottom:12px; display:flex; align-items:center; gap:10px; }
+.section-title::before { content:'◆'; font-size:10px; }
+.section-text { font-size:14px; color:#FCA5A5; line-height:1.8; }
+.section-text ul { margin:12px 0 0 20px; }
+.section-text ul li { margin-bottom:6px; }
+.section-text strong { color:#fff; }
+.highlight { background:rgba(248,113,113,0.08); border:1px solid rgba(248,113,113,0.2); border-radius:12px; padding:16px 20px; margin-top:12px; font-size:13px; color:#FCA5A5; line-height:1.7; }
+.warning { background:rgba(244,63,94,0.08); border:1px solid rgba(244,63,94,0.2); border-radius:12px; padding:16px 20px; margin-top:12px; font-size:13px; color:#FCA5A5; line-height:1.7; }
+
+footer { border-top:1px solid rgba(248,113,113,0.1); padding:32px 40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; position:relative; z-index:1; }
+.footer-logo { font-size:16px; font-weight:800; color:#F87171; }
+.footer-links { display:flex; gap:24px; list-style:none; }
+.footer-links a { font-size:12px; color:#7F1D1D; text-decoration:none; transition:color 0.2s; }
+.footer-links a:hover { color:#F87171; }
+.footer-copy { font-size:12px; color:#7F1D1D; }
+
+@media(max-width:600px) { nav{padding:16px 20px} .content{padding:60px 20px} footer{flex-direction:column;text-align:center} }
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="glow1"></div>
+<div class="glow2"></div>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <div class="logo-icon">
+      <svg width="22" height="22" viewBox="0 0 80 80" fill="none">
+        <polygon points="40,4 72,22 72,58 40,76 8,58 8,22" fill="rgba(248,113,113,0.1)" stroke="#F87171" stroke-width="2"/>
+        <path d="M18 52 L28 44 L36 48 L48 32 L62 28" stroke="#F87171" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="62" cy="28" r="4" fill="#F87171"/>
+      </svg>
+    </div>
+    <div class="logo-name">Day<span>Market</span></div>
+  </a>
+  <a href="/" class="nav-back">← Retour</a>
+</nav>
+
+<div class="content">
+  <div class="page-badge">Légal</div>
+  <h1 class="page-title">Conditions Générales <span>d'Utilisation</span></h1>
+  <p class="page-date">Dernière mise à jour : Mai 2026</p>
+
+  <div class="section">
+    <div class="section-title">Acceptation des conditions</div>
+    <div class="section-text">
+      En téléchargeant, installant ou utilisant l'application Day Market, vous acceptez d'être lié par les présentes Conditions Générales d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre application.
+      <div class="highlight">
+        Ces CGU constituent un accord légal entre vous et Day Market. Nous vous recommandons de les lire attentivement.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Description du service</div>
+    <div class="section-text">
+      Day Market est une application mobile de journal de trading professionnel permettant aux traders de :
+      <ul>
+        <li>Journaliser et analyser leurs trades</li>
+        <li>Calculer automatiquement les tailles de lot</li>
+        <li>Suivre leurs performances sur les prop firms</li>
+        <li>Simuler des challenges prop firm</li>
+        <li>Recevoir des analyses IA personnalisées</li>
+      </ul>
+      <div class="warning">
+        ⚠️ Day Market est un outil de journal et d'analyse. L'application ne fournit pas de conseils financiers, d'investissement ou de trading. Toutes les décisions de trading sont sous votre entière responsabilité.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Abonnements et paiements</div>
+    <div class="section-text">
+      Day Market propose plusieurs plans d'abonnement :
+      <ul>
+        <li><strong>Starter :</strong> gratuit avec fonctionnalités limitées</li>
+        <li><strong>Trader :</strong> 14.99€/mois</li>
+        <li><strong>Analyst :</strong> 24.99€/mois</li>
+        <li><strong>Fundé :</strong> 39.99€/mois</li>
+      </ul>
+      <div class="highlight">
+        Les abonnements se renouvellent automatiquement. Vous pouvez annuler à tout moment depuis les Réglages de votre iPhone → Apple ID → Abonnements → Day Market. Aucun remboursement n'est accordé pour la période en cours sauf obligation légale.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Système de parrainage</div>
+    <div class="section-text">
+      Day Market propose un système de parrainage :
+      <ul>
+        <li>Chaque utilisateur dispose d'un code de parrainage unique</li>
+        <li>La réduction de 10% s'applique uniquement sur le plan Fundé</li>
+        <li>La réduction est valable pour le premier mois de l'ami invité</li>
+        <li>Le parrain reçoit 10% de réduction sur son mois suivant</li>
+        <li>Day Market se réserve le droit de modifier ou supprimer ce programme</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Propriété intellectuelle</div>
+    <div class="section-text">
+      Day Market et tout son contenu sont protégés par le droit d'auteur et les lois sur la propriété intellectuelle :
+      <ul>
+        <li>Le nom "Day Market" et le logo sont des marques protégées</li>
+        <li>Le code source, le design et les fonctionnalités appartiennent à Day Market</li>
+        <li>Toute reproduction, distribution ou modification sans autorisation est strictement interdite</li>
+        <li>Vos données de trading vous appartiennent — vous pouvez les exporter à tout moment</li>
+      </ul>
+      <div class="highlight">
+        Day Market n'est pas affilié à FTMO, The5ers, MyForexFunds ou toute autre prop firm. Les règles de simulation sont basées sur des informations publiquement disponibles.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Utilisation acceptable</div>
+    <div class="section-text">
+      En utilisant Day Market vous vous engagez à :
+      <ul>
+        <li>Ne pas utiliser l'application à des fins illégales</li>
+        <li>Ne pas tenter de pirater ou compromettre la sécurité de l'application</li>
+        <li>Ne pas créer de faux comptes ou usurper l'identité d'autres utilisateurs</li>
+        <li>Ne pas partager votre compte avec d'autres personnes</li>
+        <li>Respecter les autres membres de la communauté Day Market</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Limitation de responsabilité</div>
+    <div class="section-text">
+      <div class="warning">
+        ⚠️ Day Market n'est pas responsable des pertes financières résultant de décisions de trading. L'application est fournie "telle quelle" sans garantie de résultats financiers. Le trading comporte des risques de perte en capital.
+      </div>
+      <br>
+      Day Market ne peut être tenu responsable de :
+      <ul>
+        <li>Pertes financières liées à vos décisions de trading</li>
+        <li>Interruptions temporaires du service</li>
+        <li>Perte de données due à des circonstances exceptionnelles</li>
+        <li>Dommages indirects ou consécutifs</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Résiliation et suppression</div>
+    <div class="section-text">
+      Vous pouvez supprimer votre compte à tout moment depuis l'application dans Paramètres → Mon Compte → Supprimer mon compte. Day Market se réserve le droit de suspendre ou supprimer les comptes qui violent ces CGU.
+      <div class="highlight">
+        Après suppression, toutes vos données sont définitivement effacées dans un délai de 30 jours conformément au RGPD.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Modifications des CGU</div>
+    <div class="section-text">
+      Day Market se réserve le droit de modifier ces CGU à tout moment. Les modifications importantes seront communiquées par notification dans l'application. L'utilisation continue de l'application après modification vaut acceptation des nouvelles conditions.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Droit applicable</div>
+    <div class="section-text">
+      Ces CGU sont régies par le droit français. Tout litige sera soumis à la juridiction compétente de France.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Contact</div>
+    <div class="section-text">
+      Pour toute question concernant ces CGU :
+      <div class="highlight">
+        📧 support.daymarket@gmail.com<br>
+        🌐 daymarketstore.netlify.app<br>
+        Nous répondons en moins de 48h ouvrées.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">◆ Day Market</div>
+  <ul class="footer-links">
+    <li><a href="/privacy">Confidentialité</a></li>
+    <li><a href="/terms">CGU</a></li>
+    <li><a href="mailto:support.daymarket@gmail.com">Support</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Day Market. Tous droits réservés.</div>
+</footer>
+
+</body>
+</html>
