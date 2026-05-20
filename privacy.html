@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day Market — Politique de Confidentialité</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,'Inter',system-ui,sans-serif; background:#000; color:#fff; overflow-x:hidden; }
+.bg { position:fixed; top:0; left:0; width:100%; height:100%; background:linear-gradient(135deg,#000000 0%,#0D0108 50%,#180410 100%); z-index:-2; }
+.glow1 { position:fixed; top:-150px; left:-150px; width:500px; height:500px; border-radius:50%; background:radial-gradient(circle,rgba(248,113,113,0.15) 0%,transparent 70%); z-index:-1; }
+.glow2 { position:fixed; bottom:-100px; right:-100px; width:400px; height:400px; border-radius:50%; background:radial-gradient(circle,rgba(220,38,38,0.1) 0%,transparent 70%); z-index:-1; }
+
+nav { display:flex; align-items:center; justify-content:space-between; padding:24px 40px; border-bottom:1px solid rgba(248,113,113,0.1); backdrop-filter:blur(20px); position:sticky; top:0; z-index:100; background:rgba(0,0,0,0.8); }
+.nav-logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
+.logo-icon { width:40px; height:40px; background:rgba(248,113,113,0.15); border:1.5px solid rgba(248,113,113,0.4); border-radius:12px; display:flex; align-items:center; justify-content:center; }
+.logo-name { font-size:20px; font-weight:800; letter-spacing:-0.5px; color:#fff; }
+.logo-name span { color:#F87171; }
+.nav-back { background:rgba(248,113,113,0.1); color:#F87171; border:1px solid rgba(248,113,113,0.3); border-radius:10px; padding:10px 20px; font-size:14px; font-weight:700; cursor:pointer; text-decoration:none; transition:all 0.2s; }
+.nav-back:hover { background:rgba(248,113,113,0.2); }
+
+.content { max-width:800px; margin:0 auto; padding:80px 40px; position:relative; z-index:1; }
+.page-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(248,113,113,0.1); border:1px solid rgba(248,113,113,0.3); border-radius:20px; padding:6px 16px; font-size:12px; color:#F87171; font-weight:600; letter-spacing:1px; text-transform:uppercase; margin-bottom:24px; }
+.page-title { font-size:clamp(32px,5vw,56px); font-weight:900; letter-spacing:-2px; margin-bottom:8px; }
+.page-title span { color:#F87171; }
+.page-date { font-size:13px; color:#7F1D1D; margin-bottom:48px; }
+
+.section { background:rgba(100,5,25,0.15); border:1px solid rgba(220,38,38,0.15); border-radius:18px; padding:28px; margin-bottom:16px; }
+.section-title { font-size:17px; font-weight:700; color:#F87171; margin-bottom:12px; display:flex; align-items:center; gap:10px; }
+.section-title::before { content:'◆'; font-size:10px; }
+.section-text { font-size:14px; color:#FCA5A5; line-height:1.8; }
+.section-text ul { margin:12px 0 0 20px; }
+.section-text ul li { margin-bottom:6px; }
+.section-text strong { color:#fff; }
+
+.highlight { background:rgba(248,113,113,0.08); border:1px solid rgba(248,113,113,0.2); border-radius:12px; padding:16px 20px; margin-top:12px; font-size:13px; color:#FCA5A5; line-height:1.7; }
+
+footer { border-top:1px solid rgba(248,113,113,0.1); padding:32px 40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; position:relative; z-index:1; }
+.footer-logo { font-size:16px; font-weight:800; color:#F87171; }
+.footer-links { display:flex; gap:24px; list-style:none; }
+.footer-links a { font-size:12px; color:#7F1D1D; text-decoration:none; transition:color 0.2s; }
+.footer-links a:hover { color:#F87171; }
+.footer-copy { font-size:12px; color:#7F1D1D; }
+
+@media(max-width:600px) { nav{padding:16px 20px} .content{padding:60px 20px} footer{flex-direction:column;text-align:center} }
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="glow1"></div>
+<div class="glow2"></div>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <div class="logo-icon">
+      <svg width="22" height="22" viewBox="0 0 80 80" fill="none">
+        <polygon points="40,4 72,22 72,58 40,76 8,58 8,22" fill="rgba(248,113,113,0.1)" stroke="#F87171" stroke-width="2"/>
+        <path d="M18 52 L28 44 L36 48 L48 32 L62 28" stroke="#F87171" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="62" cy="28" r="4" fill="#F87171"/>
+      </svg>
+    </div>
+    <div class="logo-name">Day<span>Market</span></div>
+  </a>
+  <a href="/" class="nav-back">← Retour</a>
+</nav>
+
+<div class="content">
+  <div class="page-badge">Légal</div>
+  <h1 class="page-title">Politique de <span>Confidentialité</span></h1>
+  <p class="page-date">Dernière mise à jour : Mai 2026</p>
+
+  <div class="section">
+    <div class="section-title">Introduction</div>
+    <div class="section-text">
+      Bienvenue sur Day Market. Nous nous engageons à protéger votre vie privée et vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application et notre site web.
+      <div class="highlight">
+        En utilisant Day Market, vous acceptez les pratiques décrites dans cette politique. Si vous n'acceptez pas ces termes, veuillez ne pas utiliser notre application.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Données collectées</div>
+    <div class="section-text">
+      Nous collectons les données suivantes pour faire fonctionner l'application :
+      <ul>
+        <li><strong>Données de compte :</strong> adresse email, nom d'utilisateur, mot de passe chiffré</li>
+        <li><strong>Données de trading :</strong> trades journalisés, statistiques, performances, stratégies</li>
+        <li><strong>Données d'utilisation :</strong> fonctionnalités utilisées, fréquence de connexion</li>
+        <li><strong>Données techniques :</strong> type d'appareil, version iOS, identifiants anonymisés</li>
+        <li><strong>Données de paiement :</strong> gérées exclusivement par Apple App Store — nous ne stockons jamais vos données bancaires</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Utilisation des données</div>
+    <div class="section-text">
+      Vos données sont utilisées uniquement pour :
+      <ul>
+        <li>Faire fonctionner et améliorer l'application Day Market</li>
+        <li>Personnaliser votre expérience de trading</li>
+        <li>Générer vos statistiques et analyses de performance</li>
+        <li>Vous envoyer des notifications pertinentes (si activées)</li>
+        <li>Assurer la sécurité de votre compte</li>
+        <li>Respecter nos obligations légales</li>
+      </ul>
+      <div class="highlight">
+        Nous ne vendons jamais vos données à des tiers. Nous ne les utilisons pas à des fins publicitaires.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Sécurité des données</div>
+    <div class="section-text">
+      La sécurité de vos données est notre priorité absolue :
+      <ul>
+        <li><strong>Chiffrement en transit :</strong> toutes les communications utilisent HTTPS/TLS</li>
+        <li><strong>Chiffrement au repos :</strong> vos données sont chiffrées avec AES-256</li>
+        <li><strong>Mots de passe :</strong> hashés avec bcrypt — jamais stockés en clair</li>
+        <li><strong>Authentification :</strong> tokens JWT sécurisés avec expiration automatique</li>
+        <li><strong>Accès :</strong> chaque utilisateur ne peut accéder qu'à ses propres données</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Vos droits RGPD</div>
+    <div class="section-text">
+      Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :
+      <ul>
+        <li><strong>Droit d'accès :</strong> consulter toutes vos données personnelles</li>
+        <li><strong>Droit de rectification :</strong> corriger vos données inexactes</li>
+        <li><strong>Droit à l'effacement :</strong> supprimer votre compte et toutes vos données</li>
+        <li><strong>Droit à la portabilité :</strong> exporter vos données en format JSON</li>
+        <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données</li>
+      </ul>
+      <div class="highlight">
+        Vous pouvez exercer tous ces droits directement depuis l'application dans Paramètres → Mon Compte, ou en nous contactant à support.daymarket@gmail.com
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Cookies et analytics</div>
+    <div class="section-text">
+      Nous utilisons des analytics anonymisés pour comprendre comment l'application est utilisée et l'améliorer. Ces données ne permettent pas de vous identifier personnellement. Nous n'utilisons aucun cookie publicitaire ou de tracking tiers.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Services tiers</div>
+    <div class="section-text">
+      Day Market utilise les services tiers suivants, chacun avec leur propre politique de confidentialité :
+      <ul>
+        <li><strong>RevenueCat :</strong> gestion des abonnements</li>
+        <li><strong>Expo / EAS :</strong> infrastructure de l'application</li>
+        <li><strong>Resend :</strong> envoi d'emails transactionnels</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Suppression des données</div>
+    <div class="section-text">
+      Vous pouvez supprimer votre compte à tout moment depuis l'application. Toutes vos données personnelles seront définitivement supprimées dans un délai de 30 jours. Cette action est irréversible.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Contact</div>
+    <div class="section-text">
+      Pour toute question concernant cette politique de confidentialité ou vos données personnelles, contactez-nous :
+      <div class="highlight">
+        📧 support.daymarket@gmail.com<br>
+        🌐 daymarketstore.netlify.app<br>
+        Nous répondons en moins de 48h ouvrées.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">◆ Day Market</div>
+  <ul class="footer-links">
+    <li><a href="/privacy">Confidentialité</a></li>
+    <li><a href="/terms">CGU</a></li>
+    <li><a href="mailto:support.daymarket@gmail.com">Support</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Day Market. Tous droits réservés.</div>
+</footer>
+
+</body>
+</html>
